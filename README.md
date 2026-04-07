@@ -1,5 +1,5 @@
 # Laboratorio: Exploración con DEBUG en DOSBox
-# Unidad 3 -- Post Contenido 1 | Arquitectura de Computadores
+## Unidad 3 -- Post Contenido 1 | Arquitectura de Computadores
 
 **Estudiante:** Florez
 **Repositorio:** apellido-post1-u3  
