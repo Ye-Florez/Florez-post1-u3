@@ -28,6 +28,7 @@ del procesador de forma selectiva sin afectar los demás registros.
 
 ## Checkpoint 2  — Volcado de Memoria 
 Comando: F - D
+
 Se rellenan 64 bytes a partir de la dirección DS:0200 con el patrón AB CD EF usando el 
 comando F 200 L40 AB CD EF. El patrón se repite cíclicamente hasta completar el bloque.
 
