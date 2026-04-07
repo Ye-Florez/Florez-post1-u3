@@ -13,6 +13,7 @@ interno del procesador a nivel de hardware.
 
 ## Checkpoint 1  — Estado de registros
 Comando: R
+
 Este comando muestra el estado completo del procesador al iniciar DEBUG.
 Se observa que los registros de propósito general AX, BX, CX y DX se encuentran en cero, 
 indicando que no hay operaciones previas en memoria.
@@ -42,10 +43,15 @@ puntos porque están fuera del rango ASCII imprimible (0x20–0x7E).
 
 ## Checkpoint 2  — Volcado de Memoria 
 Comando: A - U
+
 Se ensambla un programa de 4 instrucciones en CS:0100 usando el comando A 
+
 MOV AX, 0005 --  Carga el valor 5 en el registro AX 
+
 MOV BX, 0003 --  Carga el valor 3 en el registro BX
+
 ADD AX, BX   --  Suma BX a AX, resultado en AX
+
 INT 20       --  Termina el programa 
 
 El comando U 100 109 verifica que el ensamblado fue correcto mostrando 
