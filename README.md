@@ -32,10 +32,10 @@ comando F 200 L40 AB CD EF. El patrón se repite cíclicamente hasta completar e
 
 El comando D 200 L40 muestra la región rellena. 
 La salida se organiza en tres columnas:
-> Columna 1: indica la dirección de memoria en formato segmento:offset donde comienza cada fila.
-> Columna 2:  muestra 16 bytes por fila en formato hexadecimal, separados en dos grupos de 8
+*Columna 1: indica la dirección de memoria en formato segmento:offset donde comienza cada fila.
+*Columna 2:  muestra 16 bytes por fila en formato hexadecimal, separados en dos grupos de 8
 por un guion central.
-> Columna 3: representa los mismos bytes como caracteres. Los bytes AB, CD y EF aparecen como
+*Columna 3: representa los mismos bytes como caracteres. Los bytes AB, CD y EF aparecen como
 puntos porque están fuera del rango ASCII imprimible (0x20–0x7E).
 
 ## Checkpoint 2  — Volcado de Memoria 
